@@ -4,8 +4,7 @@
 掘金地址：https://juejin.cn/post/7056922161788747789
 
 ```
-树形结构数据：
-
+// 树形结构数据：
 const treeData = [
   { id: 1, name: '一级1' },
   {
