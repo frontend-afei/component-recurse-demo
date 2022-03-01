@@ -1,4 +1,4 @@
-# component-recursion-demo
+# component-recurse-demo
 使用Vue组件递归，实现树形结构数据的渲染
 
 掘金地址：https://juejin.cn/post/7056922161788747789
