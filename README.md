@@ -1,7 +1,11 @@
 # component-recursion-demo
 使用Vue组件递归，实现树形结构数据的渲染
 
+掘金地址：https://juejin.cn/post/7056922161788747789
+
 ```
+树形结构数据：
+
 const treeData = [
   { id: 1, name: '一级1' },
   {
@@ -30,8 +34,6 @@ const treeData = [
   }
 ]
 ```
-
-掘金地址：https://juejin.cn/post/7056922161788747789
 
 ## Project setup
 
