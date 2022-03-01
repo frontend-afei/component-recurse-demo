@@ -1,6 +1,40 @@
 # component-recursion-demo
+使用Vue组件递归，渲染树形结构数据
+
+```
+const treeData = [
+  { id: 1, name: '一级1' },
+  {
+    id: 2,
+    name: '一级2',
+    children: [
+      { id: 3, name: '二级2-1' },
+      { id: 4, name: '二级2-2' }
+    ]
+  },
+  {
+    id: 5,
+    name: '一级3',
+    children: [
+      {
+        id: 6,
+        name: '二级3-1',
+        children: [
+          { id: 7, name: '三级3-1-1' },
+          { id: 8, name: '三级3-1-2' }
+        ]
+      },
+      { id: 9, name: '二级3-2' },
+      { id: 10, name: '二级3-3' }
+    ]
+  }
+]
+```
+
+掘金地址：https://juejin.cn/post/7056922161788747789
 
 ## Project setup
+
 ```
 npm install
 ```
