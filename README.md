@@ -1,5 +1,5 @@
 # component-recursion-demo
-使用Vue组件递归，渲染树形结构数据
+使用Vue组件递归，实现树形结构数据的渲染
 
 ```
 const treeData = [
